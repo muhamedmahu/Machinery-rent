@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <p>Свяжитесь с нами:</p>
       <p>
-        <a href="https://wa.me/номер_телефона" className="footer-link">
+        <a href="https://wa.me/+996555455551" className="footer-link">
           WhatsApp
         </a>{" "}
         |{" "}
@@ -18,7 +18,7 @@ const Footer = () => {
         >
           Instagram
         </a>{" "}
-        | Телефон: <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+        | Телефон: <a href="tel:+996 555 455 551">+996 (555)455 551</a>
       </p>
     </footer>
   );
