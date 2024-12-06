@@ -1,0 +1,23 @@
+.equipment-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .equipment-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .equipment-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .equipment-image {
+    width: 100%;
+    height: auto;
+  }
+  
